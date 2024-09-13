@@ -116,6 +116,89 @@ a{
     font-weight: bold;
     color: #2b2a29;
     padding-top: 85px;
-    padding-bottom: 44px;
+    margin: 0;
 }
 /* header css end */
+/* ------Fashion css start ------ */
+#fashion{
+    width: 100%;
+}
+#fashion .t-shirt{
+    width: 360px;
+    padding: 15px;
+    box-shadow: -1px 3px 67px -21px #2b2a29;
+}
+#fashion .t-shirt h4{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#fashion .t-shirt p{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+#fashion .t-shirt p span{
+    color: #f26522;
+    margin-right: 5px;
+}
+#fashion .t-shirt a{
+    color: #f26522;
+    margin-right: 165px;
+}
+#fashion .t-shirt img{
+    margin-bottom: 25px;
+}
+#fashion .men-shirt{
+    width: 360px;
+    padding: 15px;
+    box-shadow: -1px 3px 67px -21px #2b2a29;
+}
+#fashion .men-shirt h4{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#fashion .men-shirt p{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+#fashion .men-shirt p span{
+    color: #f26522;
+    margin-right: 5px;
+}
+#fashion .men-shirt a{
+    color: #f26522;
+    margin-right: 165px;
+}
+#fashion .men-shirt img{
+    margin-bottom: 25px;
+}
+#fashion .scart{
+    width: 360px;
+    padding: 15px;
+    box-shadow: -1px 3px 67px -21px #2b2a29;
+}
+#fashion .scart h4{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#fashion .scart p{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+#fashion .scart p span{
+    color: #f26522;
+    margin-right: 5px;
+}
+#fashion .scart a{
+    color: #f26522;
+    margin-right: 165px;
+}
+#fashion .scart img{
+    margin-bottom: 25px;
+}
+/* ------Fashion css ends ------ */
