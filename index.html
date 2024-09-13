@@ -15,7 +15,7 @@
                 <div class="col-md-12" style="
                     padding-left: 0px;
                     padding-right: 0px;">
-                    <ul class="nav justify-content-center">
+                    <ul class="nav nav-cs justify-content-center">
                         <li class="nav-item">
                           <a class="nav-link " aria-current="page" href="#">Best Sellers</a>
                         </li>
@@ -36,20 +36,44 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-2 offset-md-5 text-center">
+                <div class="col-md-2 offset-md-5 text-center logo">
                     <img src="Images/Eflyer-ecommers-logo.png" alt="">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="navigation d-flex justify-content-between">
-                        <div class="icon">
-                            <i class="fa-solid fa-bars"></i>
+                      <button class="btn option" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-bars"></i></button>
+
+                      <div class="offcanvas offcanvas-start offcanvas-cs" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><img src="Images/Eflyer-ecommers-logo.png" alt=""></h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
+                        <div class="offcanvas-body">
+                          <ul class="nav flex-column">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">BEST SELLER</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">GIFT IDEAS</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">NEW RELEASES</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">TODAY DEAL</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">CUSTOMAR SERVICE</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
                         <div class="catagory">
                             <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Dropdown button
+                                <button class="btn btn-bg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  ALL CATAGOARY
                                 </button>
                                 <ul class="dropdown-menu">
                                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -61,12 +85,12 @@
                         <div class="src-bar">
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
-                                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <button class="btn " type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
                               </div>
                         </div>
                         <div class="country">
                             <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button class="btn btn-bg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                   Dropdown button
                                 </button>
                                 <ul class="dropdown-menu">
@@ -82,6 +106,19 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-1 left-arow">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="col-lg-10 banner-text text-center">
+                <h2>GET START <br> YOUR FAVRIOT SHOPPING</h2>
+                <a href="#" class="btn-1">Buy Now</a>
+                <h3>Man & Woman Fashion</h3>
+              </div>
+              <div class="col-lg-1 right-arow">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
             </div>
         </div>
     </header>

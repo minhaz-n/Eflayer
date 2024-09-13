@@ -15,16 +15,19 @@ a{
     /* height: 100vh; */
     background-image: url(../Images/Eflyer-bg-banner.png);
     background-size: cover;
-    background-position: center;
+    background-position:center;
     background-repeat: no-repeat;
 }
-.nav {
+.nav-cs {
 	clip-path: polygon(0 0, 100% 0%, 97% 100%, 4% 100%);
 	background-color: #2b2a29;
 	top: 0;
 	left: 10%;
 	margin: 0 auto;
     color: #ffffff;
+   
+}
+.nav{
     --bs-nav-link-hover-color: #ffffff;
 }
 .nav li{
@@ -35,5 +38,84 @@ a{
 }
 .nav-link:hover{
     color: #ffffff;
+}
+.logo img{
+    padding: 26px 0 !important;
+}
+.option{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.offcanvas-cs{
+    background-color: #aa8200;
+    width: 220px !important;
+}
+.btn i{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+.offcanvas-body .nav-item{
+    margin: 0;
+}
+.dropdown .btn-bg{
+    background-color: #30302e;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+.src-bar input{
+    width: 454px !important;
+}
+.src-bar button{
+    background-color: #f26522;
+    outline: none;
+}
+.src-bar .btn:hover{
+    background-color: #f26522;
+    color: inherit;
+}
+.cart-user a{
+    font-size: 20px;
+}
+.cart-user i{
+    margin-right: 5px;
+}
+.left-arow i ,.right-arow i{
+    font-size: 23px;
+    background-color: #f2deac;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    top: 35%;
+}
+.left-arow i{
+    
+}
+.banner-text h2{
+    font-size: 52px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 70px;
+
+}
+.btn-1{
+    background-color: #2b2a29;
+    padding: 25px 70px;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 23px;
+}
+.banner-text h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #2b2a29;
+    padding-top: 85px;
+    padding-bottom: 44px;
 }
 /* header css end */
